@@ -91,6 +91,17 @@ export const App: React.FC = () => {
           />
 
           <Route
+            path="/merchant-statement"
+            element={
+              <ProtectedRoute allowedRoles={["ADMIN", "ACCOUNTS_USER", "OPERATOR"]}>
+                <DashboardLayout>
+                  <MerchantStatement />
+                </DashboardLayout>
+              </ProtectedRoute>
+            }
+          />
+
+          <Route
             path="/financials/statement"
             element={
               <ProtectedRoute allowedRoles={["ADMIN", "ACCOUNTS_USER", "OPERATOR"]}>
