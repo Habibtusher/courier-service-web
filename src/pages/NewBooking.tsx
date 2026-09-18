@@ -426,9 +426,9 @@ export const NewBooking: React.FC = () => {
 
         {/* Column 3: Auto-Calculated Summary & Submit Actions */}
         <div className="space-y-6">
-          <Card className="bg-slate-900 text-white shadow-xl border border-slate-800 sticky top-20">
-            <CardHeader className="p-5 border-b border-slate-800 bg-slate-950">
-              <CardTitle className="text-base font-bold flex items-center gap-2">
+          <Card className="bg-slate-900 text-white shadow-xl border border-slate-800/80 sticky top-20 overflow-hidden">
+            <CardHeader className="p-5 border-b border-slate-800/80 bg-slate-950/90">
+              <CardTitle className="text-base font-bold text-white flex items-center gap-2">
                 <Calculator className="w-5 h-5 text-sky-400" /> Rate Auto-Calculations
               </CardTitle>
               <CardDescription className="text-xs text-slate-400">
