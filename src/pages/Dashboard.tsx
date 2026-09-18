@@ -116,7 +116,7 @@ export const Dashboard: React.FC = () => {
 
       {/* SRS Section 3: Quick Actions Bar */}
       <div className="space-y-3">
-        <h2 className="text-xs font-bold uppercase tracking-wider text-slate-500">Quick Actions (SRS Spec)</h2>
+        <h2 className="text-xs font-bold uppercase tracking-wider text-slate-500">Quick Actions</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-7 gap-2.5">
           <Link to="/booking/new" className="bg-white hover:bg-sky-50 border p-3 rounded-xl text-center shadow-sm transition-all group">
             <PlusCircle className="w-5 h-5 mx-auto text-primary group-hover:scale-110 transition-transform mb-1" />
